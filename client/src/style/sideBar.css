@@ -1,0 +1,12 @@
+li {
+  list-style: none;
+}
+
+.sideBar {
+  width: 25%;
+  height: 100vh;
+  background-color: #e1e1e1;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,65 @@
+.navBar {
+  width: 100%;
+  height: 80px;
+  background-color: #e4ddfa;
+  display: flex;
+  align-items: center;
+}
+
+.navBar .container--logo {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navBar .container--logo .logo {
+  width: 15%;
+  background-color: aqua;
+  padding-bottom: 15%;
+}
+
+/* 
+반응형 정사각형을 만드는 다른 방법
+.navBar .container .logo::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  } */
+
+.navBar .container--logo .title {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navBar .container--menu {
+  display: flex;
+  margin: 0 0 0 10%;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+}
+
+.navBar .container--menu ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navBar .container--menu ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navBar .container--menu ul a {
+  text-decoration: none;
+  display: block;
+}
+.navBar .container--info {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+}

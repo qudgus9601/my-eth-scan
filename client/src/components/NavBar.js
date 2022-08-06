@@ -9,19 +9,13 @@ function NavBar() {
         <div className="title">Honeyscan</div>
       </div>
       <div className="container--menu">
-        <ul>
-          <li>
-            <Link to="/">HOME</Link>
-          </li>
-          <li>
-            <Link to="/">BLOCKS</Link>
-          </li>
-          <li>
-            <Link to="/">TXNS</Link>
-          </li>
-        </ul>
+        <Link to="/">HOME</Link>
+        <Link to="/">BLOCKS</Link>
+        <Link to="/">TXNS</Link>
       </div>
-      <div className="container--info">Login</div>
+      <div className="container--info">
+        <Link to="/">Login</Link>
+      </div>
     </nav>
   );
 }

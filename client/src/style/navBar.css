@@ -1,9 +1,12 @@
 .navBar {
   width: 100%;
   height: 80px;
-  background-color: #e4ddfa;
   display: flex;
   align-items: center;
+  box-shadow: 1px 2px 2px #e1e1e1;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
 }
 
 .navBar .container--logo {
@@ -35,29 +38,27 @@
 
 .navBar .container--menu {
   display: flex;
-  margin: 0 0 0 10%;
-  width: 50%;
+  width: 60%;
   height: 100%;
-  align-items: center;
-}
-
-.navBar .container--menu ul {
-  width: 100%;
-  height: 100%;
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-.navBar .container--menu ul li {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
-.navBar .container--menu ul a {
+
+.navBar .container--menu a {
+  color: black;
   text-decoration: none;
-  display: block;
+  display: flex;
+  width: 20%;
+  height: 100%;
+  justify-content: center;
+  margin: auto 0;
+  align-items: center;
 }
+
+.navBar .container--menu a:hover {
+  color: red;
+}
+
 .navBar .container--info {
   display: flex;
   justify-content: center;
